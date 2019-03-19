@@ -11,10 +11,10 @@ from urllib import request
 
 
 keys = {
-        "CK":'Consumer_key',
-        "CS":'Consumer_secret',
-        "AT":'Access_token_key',
-        "AS":'Access_token_secret',
+        "CK":os.environ['Consumer_key'],
+        "CS":os.environ['Consumer_secret'],
+        "AT":os.environ['Access_token_key'],
+        "AS":os.environ['Access_token_secret'],
         }
 sess = OAuth1Session(keys["CK"],keys["CS"],keys["AT"],keys["AS"])
 
