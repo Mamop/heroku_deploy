@@ -44,11 +44,16 @@ def generate_text(num_sentence=1):
             sentence += '\n'
         w1,w2 = w2,tmp
     
+    ck=os.environ["Consumer_key"]
+    cs=os.environ["Consumer_secret"]
+    at=os.environ["Access_token_key"]
+    as=os.environ["Access_token_secret"]
+    
     keys ={
-            "CK":os.environ['Consumer_key'],
-            "CS":os.environ['Consumer_secret'],
-            "AT":os.environ['Access_token_key'],
-            "AS":os.environ['Access_token_secret'],}
+            "CK":ck,
+            "CS":cs,
+            "AT":at,
+            "AS":as,}
     
     sess=OAuth1Session(keys["CK"], keys["CS"], keys["AT"], keys["AS"])
     
