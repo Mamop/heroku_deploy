@@ -1,0 +1,11 @@
+bottle==0.12.9
+certifi==2019.3.9
+chardet==3.0.4
+idna==2.6
+oauthlib==3.0.1
+requests==2.18.4
+requests-oauthlib==1.2.0
+urllib3==1.22
+tweepy==3.7.0
+Janome==0.3.7
+
