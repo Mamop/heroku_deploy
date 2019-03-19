@@ -45,10 +45,10 @@ def generate_text(num_sentence=1):
         w1,w2 = w2,tmp
     
     keys ={
-            "CK":Consumer_key,
-            "CS":Consumer_secret,
-            "AT":Access_token_key,
-            "AS":Access_token_secret,}
+            "CK":'Consumer_key',
+            "CS":'Consumer_secret',
+            "AT":'Access_token_key',
+            "AS":'Access_token_secret',}
     
     sess=OAuth1Session(keys["CK"], keys["CS"], keys["AT"], keys["AS"])
     
