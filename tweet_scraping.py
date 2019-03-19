@@ -1,20 +1,20 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 15 11:04:48 2019
 
-@author: lenovo
-"""
 
 from requests_oauthlib import OAuth1Session
 import json
 from urllib import request
 
+ck=os.environ["Consumer_key"]
+cs=os.environ["Consumer_secret"]
+at=os.environ["Access_token_key"]
+as=os.environ["Access_token_secret"]
 
 keys = {
-        "CK":os.environ['Consumer_key'],
-        "CS":os.environ['Consumer_secret'],
-        "AT":os.environ['Access_token_key'],
-        "AS":os.environ['Access_token_secret'],
+        "CK":ck,
+        "CS":cs,
+        "AT":at,
+        "AS":as,
         }
 sess = OAuth1Session(keys["CK"],keys["CS"],keys["AT"],keys["AS"])
 
