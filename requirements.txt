@@ -9,3 +9,5 @@ urllib3==1.24.1
 tweepy==3.7.0
 Janome==0.3.7
 gunicorn==19.9.0
+apscheduler==3.6.0
+tzlocal==1.5.1
