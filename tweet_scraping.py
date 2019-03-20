@@ -28,7 +28,7 @@ params = {"count":200,
 req = sess.get(url, params = params)
 timeline = json.loads(req.text)
 
-f = open('/tmp/markov_text.txt','w',encoding='CP932', errors='ignore')
+f = open('tmp/markov_text.txt','w',encoding='CP932', errors='ignore')
 lst = str.maketrans({
         '@':'',
         '#':''
