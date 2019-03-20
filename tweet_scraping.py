@@ -6,10 +6,10 @@ import json
 from urllib import request
 import os
 
-ck=os.environ.get["Consumer_key"]
-cs=os.environ.get["Consumer_secret"]
-at=os.environ.get["Access_token_key"]
-ats=os.environ.get["Access_token_secret"]
+ck=os.environ.get("Consumer_key")
+cs=os.environ.get("Consumer_secret")
+at=os.environ.get("Access_token_key")
+ats=os.environ.get("Access_token_secret")
 
 keys = {
         "CK":ck,
