@@ -9,13 +9,13 @@ import os
 ck=os.environ.get["Consumer_key"]
 cs=os.environ.get["Consumer_secret"]
 at=os.environ.get["Access_token_key"]
-as=os.environ.get["Access_token_secret"]
+ats=os.environ.get["Access_token_secret"]
 
 keys = {
         "CK":ck,
         "CS":cs,
         "AT":at,
-        "AS":as,
+        "AS":ats,
         }
 sess = OAuth1Session(keys["CK"],keys["CS"],keys["AT"],keys["AS"])
 
