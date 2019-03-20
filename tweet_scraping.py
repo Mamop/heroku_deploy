@@ -4,7 +4,7 @@
 from requests_oauthlib import OAuth1Session
 import json
 from urllib import request
-
+import os
 
 ck=os.environ["Consumer_key"]
 cs=os.environ["Consumer_secret"]
