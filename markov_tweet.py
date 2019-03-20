@@ -1,14 +1,10 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 15 13:49:51 2019
-
-@author: lenovo
-"""
 
 
 import random
 from janome.tokenizer import Tokenizer
 from requests_oauthlib import OAuth1Session
+import os
 
 def wakati(text):
     text = text.replace('\n','')
