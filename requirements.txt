@@ -8,4 +8,4 @@ requests-oauthlib==1.2.0
 urllib3==1.24.1
 tweepy==3.7.0
 Janome==0.3.7
-
+gunicorn==19.9.0
