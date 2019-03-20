@@ -14,7 +14,7 @@ def wakati(text):
     return result
 
 def generate_text(num_sentence=1):
-    filename = "tmp/markov_text.txt"
+    filename = "/tmp/markov_text.txt"
     src = open(filename,"r").read()
     wordlist = wakati(src)
     
